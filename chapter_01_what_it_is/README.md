@@ -28,6 +28,8 @@
         spring boot 只是提供了一种新的代码组织方式，本质还是基于 spring，只是给许多常用的组件提供了许多默认的行为，让开发者更加容易的使用，可以完全无XML
         
         spring boot 不去考虑具体某个领域的具体实现（如数据库连接池，ZK，Redis等等），他专注的是如何更加容易使用现有的这些框架，降低使用的成本
+        
+        SpringBoot会基于你的classpath中的jar包，试图猜测和配置您可能需要的bean。
     
     
 # spring boot 能做什么

@@ -14,6 +14,7 @@
         <module>chapter_03_how_auto_config</module>
         <module>chapter_04_boot_conditional</module>
         <module>chapter_05_custom_starter</module>
+        <module>chapter_06_my_boot</module>
     </modules>
     <packaging>pom</packaging>
 
