@@ -38,7 +38,7 @@
         https://docs.spring.io/spring-boot/docs/1.5.14.RELEASE/reference/htmlsingle/#using-boot-auto-configuration
         
     官网的描述阐述了几个点：
-        1. spring boot 能够坚持 classpath 路径下引入的类，然后如果发现你程序中没有配置相应的Bean则会默认在Spring容器中配置一个Bean
+        1. spring boot 能够检测 classpath 路径下引入的类，然后如果发现你程序中没有配置相应的Bean则会默认在Spring容器中配置一个Bean
            (所以你如果不需要某个功能特性就不要引入相关的jar，否则默认行为下你可能不知道 spring boot 给你创建了什么)
            
         2. spring boot 的自动配置是无侵入性的，开发者可以通过自定义自己的Bean替换掉 spring boot 自己生成的Bean

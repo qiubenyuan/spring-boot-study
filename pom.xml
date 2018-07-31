@@ -12,6 +12,8 @@
         <module>chapter_01_what_it_is</module>
         <module>chapter_02_web_dev_experience</module>
         <module>chapter_03_how_auto_config</module>
+        <module>chapter_04_boot_conditional</module>
+        <module>chapter_05_custom_starter</module>
     </modules>
     <packaging>pom</packaging>
 

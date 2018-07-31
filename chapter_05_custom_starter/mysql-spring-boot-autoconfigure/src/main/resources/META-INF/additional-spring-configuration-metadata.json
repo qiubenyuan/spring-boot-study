@@ -1,0 +1,9 @@
+{"properties": [
+  {
+    "name": "example.mysql.username",
+    "type": "java.lang.String",
+    "description": "mysql username.",
+    "defaultValue": "root"
+  }
+]}
+
